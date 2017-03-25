@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+sso.jwc.whut.edu.cn	FALSE	/	FALSE	1490450728	CERLOGIN	RzzCWogrBspPuXVPtj%2BxFOmuBT8VFvVYjec0L08MgfjkR0VSr%2FP2SO6ffRpIARAcJeh%2F5nu9XqQb%0AxGj5Bm5d%2BvLWawGOyATC6shLqfHew4kntpq8khDW%2BQT63jc2utgISQPhsUU2kIGqcJ94l4xU%2Fyoq%0Afb4lC%2BU%2BJ3Uu58jm3So%3D%0A%23jIBZO%2BeLsn%2FEPrNiMn92c1FezFzuuMLx91mLISc2zU6R1ZGHYySFY6fDpoWVxE%2B870tAkcEq%2F7Ul%0Ac5fCqRC8sCFCOcg5eX%2FHeiPHM1%2FKOiYjJEKK1pseJEkEQEzNpSx9CPybXL1yqV5hUyo23vzp5YUP%0AyQ7pvP78hMy5mDZsgoU%3D%0A%23
+sso.jwc.whut.edu.cn	FALSE	/Certification	FALSE		JSESSIONID	D0D1C30768F7D760418382A4B414FB21
