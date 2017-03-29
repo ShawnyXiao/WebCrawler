@@ -20,7 +20,7 @@ class QiushibaikeCrawler:
 
     # 启动
     def start(self):
-        print u"欢迎进入糗事百科爬虫系统！\n\n操作指南：\n\tEnter:\t查看新段子\n\tQ:\t\t退出\n"
+        print u"欢迎进入糗事百科爬虫系统！\n\n操作指南：\n\tEnter:\t查看新段子\n\tQ:\t退出"
 
         self.enable = True
         while self.enable:
@@ -67,9 +67,10 @@ class QiushibaikeCrawler:
                 print u"您已选择退出，再见！"
                 self.enable = False
                 return
-            print self.stories[self.page - 1][i][0].encode("utf-8") + "（收获 " + self.stories[self.page - 1][i][2].encode("utf-8") + " 个赞和 " + self.stories[self.page - 1][i][3].encode("utf-8") + " 个评论）："
-            print self.stories[self.page - 1][i][1].encode("utf-8")
+            print self.stories[self.page - 1][i][0] + u"（收获 " + self.stories[self.page - 1][i][2] + u" 个赞和 " + self.stories[self.page - 1][i][3] + u" 个评论）："
+            print self.stories[self.page - 1][i][1]
 
 
-qiushibaike_crawler = QiushibaikeCrawler()
-qiushibaike_crawler.start()
+if __name__ == '__main__':
+    qiushibaike_crawler = QiushibaikeCrawler()
+    qiushibaike_crawler.start()

@@ -36,8 +36,7 @@ try:
     for m in results:
         have_img = re.search(r"img", m[2])  # 过滤掉带图片的段子
         if not have_img:
-            print m[0].encode("utf-8") + "：\n" + m[1].encode("utf-8") + "\n" + "（收获 " + m[3].encode("utf-8") + " 个赞和 " + \
-                  m[4].encode("utf-8") + " 个评论）\n"
+            print m[0] + u"：\n" + m[1] + u"\n（收获 " + m[3] + u" 个赞和 " + m[4] + u" 个评论）\n"
 except urllib2.URLError, e:
     if hasattr(e, "code"):
         print e.code
